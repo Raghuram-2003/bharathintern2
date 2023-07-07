@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(0, 0, 64);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        .left {
+
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstsection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            align-content: center;
+            height: 60vh;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 2.3px;
+            margin: 10px 14px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.0vw;
+            margin-left: 20px;
+            font-family: system-ui;
+        }
+
+        .text-gray {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: gray;
+            font-size: 2.1rem;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 79vw;
+            height: 2px;
+            margin: 55px 10px;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 146px;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -30px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            width: 150px;
+            font-size: 20px;
+            color: aquamarine;
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 60px;
+            width: 150px;
+            font-size: 14px;
+
+
+        }
+
+        main h1 {
+            color: white;
+            font-size: 1.5px;
+            font-family: "Lucida Sans";
+        }
+
+        footer {
+            background-color: rgb(146, 146, 162);
+            height: 228px;
+        }
+
+        .footer {
+            margin-top: 15px;
+            margin-left: 23px;
+            color: rgb(11, 3, 75);
+            font-size: 1.5rem;
+
+        }
+
+        .footer ul {
+            list-style: circle;
+
+        }
+
+
+        .thirdsection {
+            height: 9vw;
+
+        }
+
+        .thirdsection span {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: gray;
+            font-size: 2.1rem;
+
+        }
+
+        .thirdsection div {
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+
+        .fourthsection span {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: gray;
+            font-size: 2.1rem;
+
+        }
+
+        .fourthsection div {
+            margin-left: 2rem;
+            margin-top: 1rem;
+
+        }
+
+        .fifthsection span {
+            margin-top: 20px;
+            margin-left: 20px;
+            color: gray;
+            font-size: 2.1rem;
+
+        }
+
+        .fifthsection div {
+            margin-left: 2rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anu's Portfolio</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Educational Qualification</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftSection">
+                Hy! My name is <span class="purple"> Anu Gangwar</span>
+                <div>and I'm a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="web.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">Fresher(Student)</span>
+            <h1>MCA Student</h1>
+
+            <div class="box">
+                <span class="text-gray">Educational qualification</span>
+
+                <div class="vertical">
+                    <img class="image-top" src="cap.png" alt="">
+                    <div class="vertical-title">
+                        High School
+                        <span>(2014-15)</span>
+                    </div>
+                    <div class="vertical-desc">
+                        UP BOARD,Allahabad
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="cap.png" alt="">
+                    <div class="vertical-title">
+                        Higher Secondary
+                        <span>(2016-17)</span>
+                    </div>
+                    <div class="vertical-desc">
+                        UP BOARD,Allahabad
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="cap.png" alt="">
+                    <div class="vertical-title">
+                        Bachelor Of Computer Application
+                        <span>(2017-2020)</span>
+                    </div>
+                    <div class="vertical-desc">
+                        MJPRU,Bareilly
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="cap.png" alt="">
+                    <div class="vertical-title">
+                        Master Of Computer Application
+                        <span>(2022-2024)</span>
+                    </div>
+                    <div class="vertical-desc">
+                        MJPRU,Bareilly
+                    </div>
+
+                </div>
+
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <span>Achievements</span>
+            <div class="list">
+                <ul>
+                    <li type="disc">Attended 3Days Workshop on Machine Learning with Python,Bareilly College
+                        Bareilly(Feb,2020)</li>
+                    <li>Workshop On DATATHON organized by MJP ROHILKHAND UNIVERSITY,in collaboration with a global
+                        initiative lead by STANFORD UNIVERSITY,CALIFORNIA UNITED STATES(Jan,2023)</li>
+                    <li>Attended 7 Days Bootcamp on Hands-On Cloud Computing With AWS(Feb,2023)</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <hr>
+        <section class="fourthsection">
+            <span>Hard Skills</span>
+            <div class="skill">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>JAVA</li>
+                    <li>DBMS</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+        <section class="fifthsection">
+            <span>Soft Skills</span>
+            <div class="Skill">
+                <ul>
+                    <li>Observation</li>
+                    <li>Decision Making</li>
+                    <li>Multi Tasking</li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Contact Details</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>8859329691</li>
+                    <li><a href="anugangwar63@gmail.com">E-mail</a></li>
+                    <li>LinkedIn AnuGangwar</li>
+                    <li>Photography profile on insta as @naturesmile._</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Photographer', 'Content Creator', 'Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
